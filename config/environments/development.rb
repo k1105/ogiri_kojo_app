@@ -62,4 +62,7 @@ Rails.application.configure do
   
   # Allow connections to local server
   config.hosts.clear
+  
+  #mailer setting
+  config.action_mailer.default_url_options = { host: 'localhost:3000' }
 end
