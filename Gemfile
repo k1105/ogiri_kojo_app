@@ -8,6 +8,8 @@ gem 'webpacker',  '4.0.7'
 gem 'turbolinks', '5.2.0'
 gem 'jbuilder',   '2.9.1'
 gem 'haml-rails'
+gem 'bootstrap', '~> 4.1.1'
+gem 'jquery-rails'
 gem 'bootsnap',   '1.4.5', require: false
 
 group :development, :test do
