@@ -1,2 +1,10 @@
+= @question.text
 あなたの回答
 = @answer.text
+
+模範解答
+- if @best_answers
+  - @best_answers.each do |answer|
+    = answer.text
+- else
+  模範解答はありません。
