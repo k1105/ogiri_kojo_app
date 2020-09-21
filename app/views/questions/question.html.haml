@@ -4,5 +4,6 @@
 .row
   .col-6
     =form_for @answer do |f|
+      = f.hidden_field :question_id, :value => @question.id
       =f.text_field :text
       =f.submit '回答', class: "btn btn-primary"
